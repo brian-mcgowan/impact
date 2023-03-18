@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "impact"
+version = "0.1.0"
+description = "Log accomplishments, track impact, and draft promotion narratives"
+authors = ["Brian McGowan <brian@nextdaylost.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/brian-mcgowan/impact"
+repository = "https://github.com/brian-mcgowan/impact"
+documentation = "https://github.com/brian-mcgowan/impact"
+packages = [{from = "src", include = "impact"}]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/brian-mcgowan/impact/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
