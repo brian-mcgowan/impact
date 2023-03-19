@@ -10,6 +10,15 @@ Install development dependencies:
 poetry install --with dev
 ```
 
+### Serving
+
+```shell
+poetry run uvicorn impact:main \
+--app-dir src/ \
+--factory \
+--reload
+```
+
 ### Testing
 
 Run the test suite:
